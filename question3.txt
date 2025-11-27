@@ -1,0 +1,11 @@
+3. Given the following JavaScript code, what is the value of arr[2]?
+var arr = [];
+arr.push('a');
+arr.push('b');
+arr.push('c');
+
+answer:
+c
+
+// When you push a into the array, a is stored in index 0, b in index 1 and c in index 2. When you return arr[2],
+// it retrieves the data from index 2 which is c.

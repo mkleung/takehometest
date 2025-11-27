@@ -1,0 +1,22 @@
+2. When choosing a Plugin for a WordPress requirement, 
+how do you evaluate and choose when there is more than one option?
+
+
+* I look at the Wordpress plugin directory and pick the one with the most reviews and stars and free vs paid. 
+I tend to avoid plugins with fewer than 1k reviews and a lot of negative reviews. 
+
+* I then go to plugin website and look at the documentation and changelog to see how often the developer maintains it.
+I tend to avoid plugins that was last updated more than 2 years ago. Moreover, The changelog comments can give you a brief overview of the quality of the code.
+An optional action I would sometimes do for plugins is to contact the developer and check the response time beforehand. 
+For example, when I built an image gallery for Kanataseniors.ca, I picked the WP Carousel plugin because the quick response time from the developer.
+
+* I then test the plugin on a sandbox wordpress site to check the general usability of a plugin and 
+look at the database to see if there are any extra tables created. That would be beneficial in the future
+when you are working with large websites or multisites as hundreds of plugins will add a lot of database bloat
+which can reduce website speed.
+
+* I then install the plugin in the local wordpress development for the client to check if it compatible with other
+installed plugins. It has happened that a newly installed plugin broke other plugins, especially with large multisites.
+
+* I also check for the performance of the plugin and check by how much it slows the websites using tools
+like google page speed and query monitor. I then compare the before and after values.
